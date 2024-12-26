@@ -105,3 +105,25 @@ Permite al usuario ingresar múltiples vehículos hasta que decida detenerse.
         }
     }
 }
+
+
+//Al realizarlo de esta forma manual el ingreso de datos no se genera ningun conflico , el conflicto es generado en el ciclo while aunque 2 clases sean iguales las agrega igual
+//A correjir.
+
+/*
+ internal class Program
+    {
+        static void Main(string[] args)
+        {
+            GestorVehiculos gestor = new GestorVehiculos();
+
+            Coche cocheReno = new Coche("Renault", "Clio", 2010, 4);
+
+            gestor.AgregarVehiculo(cocheReno);
+            gestor.AgregarVehiculo(cocheReno);
+
+            gestor.MostrarVehiculos();
+        }
+
+    }
+*/

@@ -43,7 +43,7 @@ namespace MasEjercicicosC_
         {
             foreach (var vehiculo in vehiculos)
             {
-                if (vehiculoABuscar == vehiculo)
+                if (vehiculoABuscar == vehiculo) 
                 {
                     return vehiculo;
                 }
@@ -69,20 +69,6 @@ namespace MasEjercicicosC_
             foreach (var vehiculo in vehiculos)
             {
                 Console.WriteLine(vehiculo.EvaluarVehiculo());
-            }
-        }
-    
-
-    
-    public bool EvaluarAño(int añoEvaluar)
-        {
-            if (añoEvaluar > 1900 && añoEvaluar <= DateTime.Now.Year)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
             }
         }
     }

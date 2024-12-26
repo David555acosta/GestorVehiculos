@@ -50,10 +50,10 @@ namespace MasEjercicicosC_
         public bool esAñoValido(int año)
         {
             return año > 1900 && año <= DateTime.Now.Year; //Date.Now.Year devuelve el año actual.  
-        }   
+        }
 
-        //Metodo abstracto para evaluar vehiculo.
-
+        //Metodo abstracto para evaluar vehiculo
         public abstract string EvaluarVehiculo();
+
     }
 }
